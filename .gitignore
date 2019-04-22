@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache
+
+# Environments
+.env
+
+# database
+migrations
+*.sqlite
+*.db
+
+# celery
+*.pkl
+celerybeat-schedule
+
+# secrets
+*.pem
+
+# dynamic files
+upload/qrcodes/*
+
+# Log file
+*.log
+*.tap
+
+# Visual Studio code
+.vscode
+
+# Redis
+redis-stable/
+
+# log file
+log/
+*.log
+backend/server.log.*
+
+Gemfile.lock
+
+.DS_STORE
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Generated files after running drone cli locally
+ca.crt
